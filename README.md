@@ -22,9 +22,9 @@ Este projeto é parte do desafio ZUP Bootcamp. O objetivo final era: construir u
 
 - Web
 
--Validation
+- Validation
 
--JDBC
+- JDBC
 
 - JPA
 
@@ -47,13 +47,13 @@ As telas construidas podem ser visualizadas a seguir:
 
 *Página Inicial*
 
-![https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/index.PNG](index.png)
+![index](https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/index.PNG)
 
 
 *Página de Cadastro 1*
 
-![https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/propostaConta1.PNG](popostaConta1.png)
+![proposta conta 1](https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/propostaConta1.PNG)
 
 *Página de Cadastro 2*
 
-![https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/propostaConta2.PNG](propostaConta2.png)
+![proposta conta 2](https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/propostaConta2.PNG](propostaConta2.png)
