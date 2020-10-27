@@ -1,7 +1,7 @@
 # Desafio_ZupBootcamp
 
 
-Este projeto é parte do desafio ZUP Bootcamp. O objetivo final era: construir uma API para suportar o funcionamento de um banco digital.
+Este projeto faz parte do desafio ZUP Bootcamp, com objetivo final de: **construir uma API para suportar o funcionamento de um banco digital.**
 
 
 
