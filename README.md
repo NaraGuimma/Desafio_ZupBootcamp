@@ -56,4 +56,4 @@ As telas construidas podem ser visualizadas a seguir:
 
 *Página de Cadastro 2*
 
-![proposta conta 2](https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/propostaConta2.PNG](propostaConta2.png)
+![proposta conta 2](https://github.com/NaraGuimma/Desafio_ZupBootcamp/blob/main/propostaConta2.PNG]
