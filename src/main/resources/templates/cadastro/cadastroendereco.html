@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml"
+	xmlns:th="http://www.thymeleaf.org">
+
+<head>
+	<meta charset="ISO-8859-1">
+	<title>Proposta de Conta #2</title>
+	
+	<!--Import Google Icon Font-->
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+	<!--Import materialize.css-->
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.css"  media="screen,projection"/>
+	<link type="text/css" rel="stylesheet" href="materialize/css/materialize.min.css"  media="screen,projection"/>
+
+	</head>
+	<body>
+
+
+
+
+			<div class="container">
+				<h1>Cadastro de Clientes</h1>
+			
+				<div class="row">
+					 <form class="form-horizontal">
+			            <fieldset>
+			                <legend>
+								<h2>Proposta de Conta #2</h2>
+							</legend>
+			                <!-- postal-code input-->
+			                 <div class="control-group">
+			                    <div class="controls">
+			                        <input id="cep" name="cep" type="text" placeholder="CEP"
+			                        class="input-xlarge">
+
+			                    </div>
+			                </div>
+			                
+
+			         
+			                <!-- address-line1 input-->
+			                <div class="control-group">
+
+			                    <div class="controls">
+			                        <input id="logradouro" name="logradouro" type="text" placeholder="Rua/Avenida/Travessa"
+			                        class="input-xlarge">
+
+			                    </div>
+			                </div>
+			                <!-- address-line2 input-->
+			                <div class="control-group">
+
+			                    <div class="controls">
+			                        <input id="complemento" name="complemento" type="text" placeholder="Número/Complemento"
+			                        class="input-xlarge">
+			                     
+			                    </div>
+			                </div>
+			                <!-- city input-->
+			                <div class="control-group">
+			                    <div class="controls">
+			                        <input id="bairro" name="bairro" type="text" placeholder="Bairro" class="input-xlarge">
+			                    </div>
+			                </div>
+			                <!-- city input-->
+			                <div class="control-group">
+			                    <div class="controls">
+			                        <input id="localidade" name="localidade" type="text" placeholder="Cidade" class="input-xlarge">
+			                    </div>
+			                </div>
+			                <!-- region input-->
+			                <div class="control-group">
+			                    <div class="controls">
+			                        <input id="uf" name="uf" type="text" placeholder="Estado"
+			                        class="input-xlarge">
+			                    </div>
+			                </div>
+			                <input class="waves-effect waves-light btn" type="submit" value="Salvar">
+			               
+			              
+			                
+			            </fieldset>
+			        </form>
+				</div>
+			</div>
+			<table>
+			<tr th:each = "endereco: ${enderecos}">
+				<td th:text = "${endereco.id}"></td>
+				<td th:text = "${endereco.cep}"></td>
+				<td th:text = "${endereco.logradouro}"></td>
+				<td th:text = "${endereco.complemento}"></td>
+				<td th:text = "${endereco.bairro}"></td>
+				<td th:text = "${endereco.localidade}"></td>
+				<td th:text = "${endereco.uf}"></td>
+				
+			</tr>
+		
+		</table>
+			<!--JavaScript at end of body for optimized loading-->
+		    <script type="text/javascript" src="materialize/js/materialize.min.js"></script>
+		    <script type="text/javascript" src="materialize/js/materialize.js"></script>
+
+		
+		</body>
+</html>
