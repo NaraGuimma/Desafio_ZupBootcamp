@@ -5,7 +5,10 @@ Este projeto faz parte do desafio ZUP Bootcamp, com objetivo final de: **constru
 
 
 
-:computer: Tecnologia empregada:
+
+
+
+:computer: Tecnologias empregadas:
 
 
 - Java com Spring Boot;
